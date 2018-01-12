@@ -27,7 +27,7 @@ RCNN发表之后的一年微软亚洲研究院的He Kaiming等就发表了[SPPNE
 
 ### 总结
 
-从RCNN到SPPNET、Fast-RCNN、Faster-RCNN，其中使用的方法也不是完全崭新的方法，但是作者的优化算法，应该是最有价值，才是最值得我们学习的。
+从RCNN到SPPNET、Fast-RCNN、Faster-RCNN，其中使用的改进方法也不是完全崭新的东西。但是作者的优化算法的思路，应该是最有价值，也是最值得我们学习的。
 
 [1]: https://www.kaggle.com/c/imagenet-object-localization-challenge
 [2]: https://arxiv.org/abs/1311.2524
