@@ -9,7 +9,7 @@ excerpt: 项目计划
 #+END_EXPORT
 最近有不少的怪诞想法，在这里记录一下，防止自己忘记，也许其中一部分还能成为现实。
 * 开源硬件
-1. [X] [[https://github.com/paul356/MK32][智能键盘]]
+1. [X] [[https://github.com/paul356/MK32][基于ESP32-S3的智能键盘]]
    - [X] 支持定制按键keycode
    - [X] 支持定制宏
    - [X] 支持蓝牙协议、USB
@@ -27,6 +27,12 @@ excerpt: 项目计划
    - 通过KV技术优化元数据操作
    - 通过负载感知技术，动态调整索引结构
    - 应用最新的索引技术:surf/learned index/B-trie/hybrid index
-3. [ ] 基于公有云的安全存储系统     
-     
-
+3. [ ] 基于公有云的安全存储系统
+      
+* 生活学习
+- TODO 雅思考试
+  - TODO 羊驼雅思
+  - TODO 确认口语考试时间
+- 读书
+  - TODO 九型人格
+  - TODO rust语言编程
