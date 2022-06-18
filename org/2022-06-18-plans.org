@@ -1,0 +1,31 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_EXPORT html
+---
+layout: post
+title: 项目计划
+excerpt: 项目计划
+---
+#+END_EXPORT
+* 开源硬件
+1. [X] 智能键盘
+   - [X] 支持定制按键keycode
+   - [X] 支持定制宏
+   - [X] 支持蓝牙协议、USB
+   - [ ] 通过USB-ETH/WIFI与键盘通信
+2. [ ] 加密usb耳麦
+   - 支持设置密钥，使用相同密钥的usb耳麦可以实时对话
+   - 通过对语音加密和调制，输出加密语音
+   - 对收到的语音进行解调和解密，输出原语音
+3. [ ] 开源随身移动存储设备
+* 开源软件
+1. [ ] 安全匿名交换网络
+   - 无中心的信息交换网络
+   - 信息匿名，无法追踪
+2. [ ] 基于块设备的TableFS(内核文件系统)
+   - 通过KV技术优化元数据操作
+   - 通过负载感知技术，动态调整索引结构
+   - 应用最新的索引技术:surf/learned index/B-trie/hybrid index
+3. [ ] 基于公有云的安全存储系统     
+     
+
