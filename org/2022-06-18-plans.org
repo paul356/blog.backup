@@ -13,7 +13,8 @@ excerpt: 项目计划
    - [X] 支持定制按键keycode
    - [X] 支持定制宏
    - [X] 支持蓝牙协议、USB
-   - [ ] 通过USB-ETH/WIFI与键盘通信
+   - [ ] 支持WIFI Station、Soft AP
+   - [ ] 使用QMK的matrix和tmk_core替换MK32的matrix,tmk_core
 ** TODO 加密usb耳麦
    - 支持设置密钥，使用相同密钥的usb耳麦可以实时对话
    - 通过对语音加密和调制，输出加密语音
@@ -21,7 +22,7 @@ excerpt: 项目计划
 ** TODO 开源随身移动存储设备
 * 开源软件
 ** TODO 安全匿名交换网络
-   - 无中心的信息交换网络
+   - 基于gossip通讯，无中心的信息交换网络
    - 信息匿名，无法追踪
 ** TODO 基于块设备的TableFS(内核文件系统)
    - 通过KV技术优化元数据操作
