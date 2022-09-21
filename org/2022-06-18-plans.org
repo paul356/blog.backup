@@ -10,12 +10,12 @@ excerpt: 项目计划
 #+END_EXPORT
 最近有不少的怪诞想法，在这里记录一下，防止自己忘记，也许其中一部分还能成为现实。
 * 开源硬件
-** TODO [[https://github.com/paul356/MK32][基于ESP32-S3的智能键盘]]
+** TODO [[https://github.com/paul356/MK32][基于ESP32-S3的智能键盘 [80%]]]
    - [X] 支持定制按键keycode
-   - [X] 支持定制宏
+   - [ ] 支持定制宏
    - [X] 支持蓝牙协议、USB
-   - [ ] 支持WIFI Station、Soft AP
-   - [ ] 使用QMK的matrix和tmk_core替换MK32的matrix,tmk_core
+   - [X] 支持WIFI Station、Soft AP
+   - [X] 使用QMK的matrix和tmk_core替换MK32的matrix,tmk_core
 ** TODO 加密usb耳麦
    - 支持设置密钥，使用相同密钥的usb耳麦可以实时对话
    - 通过对语音加密和调制，输出加密语音
@@ -31,7 +31,7 @@ excerpt: 项目计划
    - 应用最新的索引技术:surf/learned index/B-trie/hybrid index
 ** TODO 基于公有云的安全存储系统
 * 学习
-** TODO 雅思考试
+** DONE 雅思考试
 - 学习羊驼雅思
 - 确认口语考试时间
 * 读书
