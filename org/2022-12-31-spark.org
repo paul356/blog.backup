@@ -1,7 +1,13 @@
-#+title: Spark测试
-#+author: paul
-#+date: 2022/12/31
-
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: ^:nil
+#+BEGIN_EXPORT html
+---
+layout: post
+title: Spark数据湖
+excerpt: Spark数据湖
+---
+#+END_EXPORT
 * Spark数据湖
 
 ** 如果在spark中使用iceberg
