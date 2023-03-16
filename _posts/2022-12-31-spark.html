@@ -3,12 +3,12 @@ layout: post
 title: Spark数据湖
 excerpt: Spark数据湖
 ---
-<div id="outline-container-org30416dc" class="outline-2">
-<h2 id="org30416dc"><span class="section-number-2">1.</span> Spark数据湖</h2>
+<div id="outline-container-orgf82997e" class="outline-2">
+<h2 id="orgf82997e"><span class="section-number-2">1.</span> Spark数据湖</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org667acae" class="outline-3">
-<h3 id="org667acae"><span class="section-number-3">1.1.</span> 如果在spark中使用iceberg</h3>
+<div id="outline-container-org3c09445" class="outline-3">
+<h3 id="org3c09445"><span class="section-number-3">1.1.</span> 如果在spark中使用iceberg</h3>
 <div class="outline-text-3" id="text-1-1">
 <div class="org-src-container">
 <pre class="src src-bash">spark-shell --packages org.apache.iceberg:iceberg-spark-runtime-3.3_2.12:1.1.0 \
@@ -24,8 +24,8 @@ excerpt: Spark数据湖
 </div>
 </div>
 
-<div id="outline-container-org6402d86" class="outline-3">
-<h3 id="org6402d86"><span class="section-number-3">1.2.</span> spark写流程</h3>
+<div id="outline-container-orga966231" class="outline-3">
+<h3 id="orga966231"><span class="section-number-3">1.2.</span> spark写流程</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li>V2TableWriteExec in WriteToDataSourceV2Exec.scala</li>
@@ -33,8 +33,8 @@ excerpt: Spark数据湖
 </div>
 </div>
 
-<div id="outline-container-org3674cfa" class="outline-3">
-<h3 id="org3674cfa"><span class="section-number-3">1.3.</span> <span class="todo TODO">TODO</span> 支持分层的数据湖格式</h3>
+<div id="outline-container-org6402237" class="outline-3">
+<h3 id="org6402237"><span class="section-number-3">1.3.</span> <span class="todo TODO">TODO</span> 支持分层的数据湖格式</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>基于lsm结构组织文件
@@ -76,8 +76,3 @@ excerpt: Spark数据湖
 </div>
 </div>
 </div>
-</div>
-<div id="postamble" class="status">
-<p class="author">Author: user1</p>
-<p class="date">Created: 2023-03-02 Thu 22:44</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
