@@ -4,8 +4,8 @@
 #+BEGIN_EXPORT html
 ---
 layout: post
-title: 项目计划
-excerpt: 项目计划
+title: 胡思乱想
+excerpt: 胡思乱想
 ---
 #+END_EXPORT
 最近有不少的怪诞想法，在这里记录一下，防止自己忘记，也许其中一部分还能成为现实。
